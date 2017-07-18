@@ -1,0 +1,19 @@
+{
+  "name": "mpbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhojan1996/mpbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhojan1996/mpbot/issues"
+  },
+  "homepage": "https://github.com/jhojan1996/mpbot#readme"
+}
