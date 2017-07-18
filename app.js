@@ -26,6 +26,37 @@ bot.recognizer(recognizer);
 var dialog = new builder.IntentDialog({ recognizers: [recognizer] });
 bot.dialog('/', dialog);
 
+dialog.onDefault(function(session){
+    var accountLinking = session.message.sourceEvent.account_linking;
+    if (accountLinking) {
+        // This is the handling for the `Account Linking webhook event` where we could
+        // verify the authorization_code and that the linking was successful.
+        // The authorization_code is the value we passed above and
+        // status has value `linked` in case the linking succeeded.
+        var id_usuario = accountLinking.authorization_code;
+        console.log("id_usuario ---------------->",id_usuario);
+        console.log("accountLinking-------------->",accountLinking);
+        var authorizationStatus = accountLinking.status;
+        if (authorizationStatus === 'linked') {
+            // Persist username under the userData
+            session.userData.idUsuario = id_usuario;
+            session.endDialog('Ingreso exitoso! dime que mas deseas hacer');
+        } else if (authorizationStatus === 'unlinked') {
+            // Remove username from the userData
+            delete session.userData.idUsuario;
+            session.endDialog('Tu cuenta fue desvinculada exitosamente');
+        } else {
+            session.endDialog('Unknown account linking event received');
+        }
+    } else {
+        var storedUsername = session.userData.idUsuario;
+        if (storedUsername) {
+            session.endDialog('You are known as ' + storedUsername + ' - type "unlink account" to try out unlinking');
+        } else {
+            session.endDialog('I hear you - type "link account" to try out account linking');
+        }
+    }
+});
 
 bot.set('localizerSettings', {
     botLocalePath: "./customLocale", 
