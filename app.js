@@ -37,29 +37,29 @@ bot.set('localizerSettings', {
 
 //Pedir datos: nombre, cedula, fecha de nacimiento, direccion y telefono//
 bot.dialog('SolicitarDatos', require('./actions/pedirDatos')).triggerAction({
-    matches: 'CrearRut'
+    matches: 'SolicitarDatos'
 }).endConversationAction("endSolicitarDatos", "Vale. Cancelado",{
     matches: /^cancelar$|^adios$/i,
     confirmPrompt: "Si escribes esto los datos que has ingresado de perderan. Deseas continuar?"
 });
 
 bot.dialog('SolicitarNombre', require('./actions/datos/pedirNombre')).triggerAction({
-    matches: 'CrearRut'
+    matches: 'SolicitarNombre'
 });
 
 bot.dialog('SolicitarCedula', require('./actions/datos/pedirCedula')).triggerAction({
-    matches: 'CrearRut'
+    matches: 'SolicitarCedula'
 });
 
 bot.dialog('SolicitarFecha', require('./actions/datos/pedirFecha')).triggerAction({
-    matches: 'CrearRut'
+    matches: 'SolicitarFecha'
 });
 
 bot.dialog('SolicitarDireccion', require('./actions/datos/pedirDireccion')).triggerAction({
-    matches: 'CrearRut'
+    matches: 'SolicitarDireccion'
 });
 
 bot.dialog('SolicitarTelefono', require('./actions/datos/pedirTelefono')).triggerAction({
-    matches: 'CrearRut'
+    matches: 'SolicitarTelefono'
 });
 //---------------------------------------------------------------------//
