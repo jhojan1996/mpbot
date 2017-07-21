@@ -44,22 +44,22 @@ bot.dialog('SolicitarDatos', require('./actions/pedirDatos')).triggerAction({
 });
 
 bot.dialog('SolicitarNombre', require('./actions/datos/pedirNombre')).triggerAction({
-    matches: 'SolicitarNombre'
+    matches: 'SolicitarDatos'
 });
 
 bot.dialog('SolicitarCedula', require('./actions/datos/pedirCedula')).triggerAction({
-    matches: 'SolicitarCedula'
+    matches: 'SolicitarDatos'
 });
 
 bot.dialog('SolicitarFecha', require('./actions/datos/pedirFecha')).triggerAction({
-    matches: 'SolicitarFecha'
+    matches: 'SolicitarDatos'
 });
 
 bot.dialog('SolicitarDireccion', require('./actions/datos/pedirDireccion')).triggerAction({
-    matches: 'SolicitarDireccion'
+    matches: 'SolicitarDatos'
 });
 
 bot.dialog('SolicitarTelefono', require('./actions/datos/pedirTelefono')).triggerAction({
-    matches: 'SolicitarTelefono'
+    matches: 'SolicitarDatos'
 });
 //---------------------------------------------------------------------//
