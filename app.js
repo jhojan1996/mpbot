@@ -63,3 +63,36 @@ bot.dialog('SolicitarTelefono', require('./actions/datos/pedirTelefono')).trigge
     matches: 'SolicitarDatos'
 });
 //---------------------------------------------------------------------//
+
+//Preguntas frecuentes//
+bot.dialog('Pregunta1', require('./actions/preguntas/pregunta1')).triggerAction({
+    matches: 'Pregunta1'
+});
+bot.dialog('Pregunta2', require('./actions/preguntas/pregunta2')).triggerAction({
+    matches: 'Pregunta2'
+});
+bot.dialog('Pregunta3', require('./actions/preguntas/pregunta3')).triggerAction({
+    matches: 'Pregunta3'
+});
+bot.dialog('Pregunta4', require('./actions/preguntas/pregunta4')).triggerAction({
+    matches: 'Pregunta4'
+});
+bot.dialog('Pregunta5', require('./actions/preguntas/pregunta5')).triggerAction({
+    matches: 'Pregunta5'
+});
+bot.dialog('Pregunta6', require('./actions/preguntas/pregunta6')).triggerAction({
+    matches: 'Pregunta6'
+});
+bot.dialog('Pregunta7', require('./actions/preguntas/pregunta7')).triggerAction({
+    matches: 'Pregunta7'
+});
+bot.dialog('Pregunta8', require('./actions/preguntas/pregunta8')).triggerAction({
+    matches: 'Pregunta8'
+});
+bot.dialog('Pregunta9', require('./actions/preguntas/pregunta9')).triggerAction({
+    matches: 'Pregunta9'
+});
+bot.dialog('Pregunta10', require('./actions/preguntas/pregunta10')).triggerAction({
+    matches: 'Pregunta10'
+});
+//-------------------//
