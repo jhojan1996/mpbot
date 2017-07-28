@@ -96,6 +96,12 @@ bot.set('localizerSettings', {
     defaultLocale: "es" 
 });
 
+//Inicio de la converzacion//
+bot.dialog('Empezar', require('./actions/empezar')).triggerAction({
+    matches: 'Empezar'
+});
+//------------------------//
+
 //Pedir datos: nombre, cedula, fecha de nacimiento, direccion y telefono//
 bot.dialog('SolicitarDatos', require('./actions/pedirDatos')).triggerAction({
     matches: 'SolicitarDatos'
