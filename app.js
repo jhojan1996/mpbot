@@ -23,7 +23,7 @@ server.get('/welcomemsg', restify.plugins.queryParser(), function (req, res, nex
     var data = {
         setting_type: "greeting",
         greeting:{
-            text: "Hola {{user_full_name}}! Soy MPBot, tu asistente personal para ayudarte a realizar tus tareas tributarias mas importantes."
+            text: "Hola {{user_full_name}}! Soy un representante de MP y estoy a la orden para resolver tus necesidades, por favor presiona el boton empezar para explicarte como te puedo ayudar"
         }
     };
 

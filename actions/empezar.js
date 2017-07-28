@@ -1,6 +1,5 @@
 module.exports = function(session){
 	console.log("Entre a empezar!");
-	session.endDialog("Hola. Te puedo responder las 10 preguntas mas frecuentes sobre MP. A continuación te muestro cuales son: ");
 	let message = getHelpCards();
 	session.endDialog(message);
 };
