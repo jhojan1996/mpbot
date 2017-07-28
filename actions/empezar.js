@@ -1,3 +1,5 @@
+var builder = require('botbuilder');
+
 module.exports = function(session){
 	console.log("Entre a empezar!");
 	let message = getHelpCards();
