@@ -18,7 +18,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "https://placeholdit.imgix.net/~text?txtsize=35&txt=Ingresar+al+sistema&w=500&h=260"
+                    "url": "http://mpbot2.azurewebsites.net/images/asesora.jpg"
                   }
                 ],
                 "buttons": [
@@ -37,7 +37,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "https://placeholdit.imgix.net/~text?txtsize=35&txt=Crear+RUT&w=500&h=260"
+                    "url": "http://mpbot2.azurewebsites.net/images/ropa.jpg"
                   }
                 ],
                 "buttons": [
@@ -56,7 +56,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "https://placeholdit.imgix.net/~text?txtsize=35&txt=Formalizar+RUT&w=500&h=260"
+                    "url": "http://mpbot2.azurewebsites.net/images/ropa.jpg"
                   }
                 ],
                 "buttons": [
@@ -75,7 +75,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "https://placeholdit.imgix.net/~text?txtsize=35&txt=Notificaciones&w=500&h=260"
+                    "url": "http://mpbot2.azurewebsites.net/images/catalogo.jpg"
                   }
                 ],
                 "buttons": [
@@ -94,7 +94,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "https://placeholdit.imgix.net/~text?txtsize=35&txt=Agendar+citas&w=500&h=260"
+                    "url": "http://mpbot2.azurewebsites.net/images/condiciones.jpg"
                   }
                 ],
                 "buttons": [
@@ -113,7 +113,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "https://placeholdit.imgix.net/~text?txtsize=35&txt=Agendar+citas&w=500&h=260"
+                    "url": "http://mpbot2.azurewebsites.net/images/blog.jpg"
                   }
                 ],
                 "buttons": [
@@ -132,7 +132,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "https://placeholdit.imgix.net/~text?txtsize=35&txt=Agendar+citas&w=500&h=260"
+                    "url": "http://mpbot2.azurewebsites.net/images/telefono.jpg"
                   }
                 ],
                 "buttons": [
@@ -151,7 +151,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "https://placeholdit.imgix.net/~text?txtsize=35&txt=Agendar+citas&w=500&h=260"
+                    "url": "http://mpbot2.azurewebsites.net/images/garantia.jpg"
                   }
                 ],
                 "buttons": [
@@ -170,7 +170,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "https://placeholdit.imgix.net/~text?txtsize=35&txt=Agendar+citas&w=500&h=260"
+                    "url": "http://mpbot2.azurewebsites.net/images/pesos.jpg"
                   }
                 ],
                 "buttons": [
@@ -189,7 +189,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "https://placeholdit.imgix.net/~text?txtsize=35&txt=Agendar+citas&w=500&h=260"
+                    "url": "http://mpbot2.azurewebsites.net/images/carrito.jpg"
                   }
                 ],
                 "buttons": [
@@ -208,7 +208,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "https://placeholdit.imgix.net/~text?txtsize=35&txt=Agendar+citas&w=500&h=260"
+                    "url": "http://mpbot2.azurewebsites.net/images/encuesta.jpg"
                   }
                 ],
                 "buttons": [

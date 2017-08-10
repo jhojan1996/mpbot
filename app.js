@@ -79,6 +79,10 @@ server.get('/empezarbut', restify.plugins.queryParser(), function (req, res, nex
 });
 // ------------------------------------ //
 
+server.get(/\/images\/?.*/, restify.plugins.serveStatic({
+  directory: __dirname
+}));
+
 var bot = new builder.UniversalBot(connector);
 
 // You can provide your own model by specifing the 'LUIS_MODEL_URL' environment variable

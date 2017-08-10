@@ -1,4 +1,4 @@
 module.exports = function(session){
 	console.log("Pregunta frecuente 9");
-	session.endDialog("Simula tus ingresos dando clic en este enlace: http://www.marketingpersonal.com/se-vendedora/simulador-ingresos");
+	session.endDialog("Para calcular cuanto puedes ganar con MP por favor da clic en el siguiente enlace: http://www.marketingpersonal.com/se-vendedora/simulador-ingresos");
 };

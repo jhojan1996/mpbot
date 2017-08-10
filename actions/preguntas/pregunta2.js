@@ -1,4 +1,4 @@
 module.exports = function(session){
 	console.log("Pregunta frecuente 2");
-	session.endDialog("Haz clic en este enlace y encuentra a tu Asesora más cercana: http://geo.marketingpersonal.com/contactanos/index.html?form=c");
+	session.endDialog("Para comprar productos MP debes contactar a tu asesora más cercana. Para ubicarla da clic en el siguiente enlace: http://geo.marketingpersonal.com/contactanos/index.html?form=c");
 };

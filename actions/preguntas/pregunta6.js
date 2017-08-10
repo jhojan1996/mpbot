@@ -1,4 +1,4 @@
 module.exports = function(session){
 	console.log("Pregunta frecuente 6");
-	session.endDialog("Accede desde este enlace: http://www.marketingpersonal.com/tendencias");
+	session.endDialog("Puedes acceder a los artículos del blog de MP dando clic en el siguiente enlace: http://www.marketingpersonal.com/tendencias");
 };
