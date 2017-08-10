@@ -56,7 +56,7 @@ function getHelpCards(){
                 "subtitle": '',
                 "images": [
                   {
-                    "url": "http://mpbot2.azurewebsites.net/images/ropa.jpg"
+                    "url": "http://mpbot2.azurewebsites.net/images/ropa2.jpg"
                   }
                 ],
                 "buttons": [
